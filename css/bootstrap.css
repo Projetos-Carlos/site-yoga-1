@@ -230,12 +230,13 @@ sup {
 }
 
 a {
+  font-size: 1.1em;
   color: #0d6efd;
   text-decoration: underline;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 a:hover {
-  color: #0a58ca;
+  color: #fff;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3932,7 +3933,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #0a58ca;
+  color: #abc1e0;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -4036,6 +4037,7 @@ textarea.form-control-lg {
   text-decoration: none;
   white-space: nowrap;
   color: #fff;
+  padding-left: 15%;
 }
 .navbar-nav {
   display: flex;
@@ -7916,7 +7918,7 @@ textarea.form-control-lg {
 }
 
 .rounded-circle {
-  border-radius: 50% !important;
+  border-radius: 5% !important;
 }
 
 .rounded-pill {
